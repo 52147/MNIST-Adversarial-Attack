@@ -1,5 +1,7 @@
 # Exploring FGSM-Based Adversarial Attacks on MNIST Using a CNN Model
 📌 View on Google Colab: [Open in Colab](https://colab.research.google.com/drive/1uUv4ZUmC4bHE-VUgj6Xb3_U29QvScT2l?usp=sharing)
+
+
 **Abstract:**
 This study explores the application of the Fast Gradient Sign Method (FGSM) in adversarial attacks on a Convolutional Neural Network (CNN) trained on the MNIST dataset. By applying perturbations at varying epsilon (ε) values, we assess the model's robustness against adversarial examples. Our findings illustrate a significant drop in classification accuracy as ε increases, highlighting the vulnerability of deep learning models to adversarial perturbations.
 
