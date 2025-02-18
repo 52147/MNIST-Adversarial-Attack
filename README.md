@@ -19,13 +19,7 @@ We use the MNIST dataset, consisting of 60,000 training and 10,000 test grayscal
 
 **2.2 Fast Gradient Sign Method (FGSM)**
 FGSM generates adversarial examples by adding a perturbation to the input image, computed as:
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-$$
-X_{adv} = X + \epsilon \cdot \operatorname{sign}(\nabla_X L(X, y))
-$$
+X_adv = X + ε ⋅ sign(∇_X L(X, y))
 
 where \( X \) is the original image, \( L \) is the loss function, and \( ε \) controls perturbation magnitude.
 
