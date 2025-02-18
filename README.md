@@ -46,6 +46,8 @@ The relationship follows a non-linear downward trend, demonstrating the increasi
 
 **3.2 Visualizing Adversarial Examples**
 We present adversarial samples across different ε values. For small perturbations (ε = 0.05), images retain their original form, and predictions remain mostly correct. However, at higher ε values, distortions become prominent, and misclassification rates increase dramatically.
+![image](https://github.com/user-attachments/assets/7254dce4-3356-4ead-b871-4458fcfded1f)
+![image](https://github.com/user-attachments/assets/a8b9ac8c-06ac-4301-9e77-c11785129bcc)
 
 ---
 
